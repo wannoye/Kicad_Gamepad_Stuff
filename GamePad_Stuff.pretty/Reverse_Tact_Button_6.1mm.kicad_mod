@@ -1,0 +1,13 @@
+(module Reverse_Tact_Button_6.1mm (layer F.Cu) (tedit 5BF1AF20)
+  (fp_text reference "" (at -0.2 3.9 180) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Tact (at 0 -3.8) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at -3.4 2.25 90) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask))
+  (pad 3 thru_hole circle (at -3.4 -2.25 90) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 3.4 2.25 90) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask))
+  (pad 4 thru_hole circle (at 3.4 -2.25 90) (size 1.524 1.524) (drill 1.016) (layers *.Cu *.Mask))
+  (pad "" thru_hole circle (at 0 0) (size 6.1 6.1) (drill 6.1) (layers *.Cu *.Mask))
+)
